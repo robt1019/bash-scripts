@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -av --delete  --exclude "prealloc*" --exclude ".*/" --exclude "Android" /home/rob/Documents/ /home/rob/Dropbox/Documents

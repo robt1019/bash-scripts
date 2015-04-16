@@ -1,0 +1,9 @@
+#!/bin/bash
+
+hdmi='pcm.!default{\n
+        \ttype hw\n
+        \tcard 0\n
+        \tdevice 3\n
+}'
+
+echo -e $hdmi > /home/rob/.asoundrc

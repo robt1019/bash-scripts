@@ -1,0 +1,9 @@
+#!/bin/bash
+
+laptop='pcm.!default{\n
+        \ttype hw\n
+        \tcard 0\n
+        \tdevice 0\n
+}'
+
+echo -e $laptop > /home/rob/.asoundrc

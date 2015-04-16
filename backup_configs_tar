@@ -1,0 +1,5 @@
+#!/bin/bash
+
+todaysDate=$(date +%y%m%d)
+
+sudo tar --exclude-caches --exclude-vcs --exclude-backups --exclude='prealloc*' --exclude='*.gz' -cvpzf /home/rob/backups/configs$todaysDate.tar.gz /etc/* /var/lib/pacman/local/*
